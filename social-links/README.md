@@ -41,21 +41,4 @@ The Social Links Website provides a platform to showcase various social media li
 
 Simply open the website in your web browser, and you'll see the list of social media links displayed. Click on any link to visit the corresponding social media profile.
 
-## Contributing
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/improvement`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature/improvement`).
-6. Create a new Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this README to better fit the specifics of your social links website project!
