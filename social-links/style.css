@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 500px;
+    width: 90%;
+    background-color: var(--DarkGrey);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container .header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.header .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header h1 {
+    font-weight: 700;
+    color: var(--White);
+    margin-bottom: 10px;
+}
+
+.header h5 {
+    font-weight: 600;
+    color: var(--Green);
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.header p {
+    font-weight: 400;
+    color: var(--White);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.bottom-header {
+    text-align: center;
+}
+
+ul {
+    display: block;
+}
+
+ul li {
+    background-color: var(--Grey);
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--White);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+ul li:hover {
+    background-color: var(--Green);
+    color: var(--White);
+    transition: 0.3s;
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 400px;
+        margin: 20px auto;
+    }
+}
